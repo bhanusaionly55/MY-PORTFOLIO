@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>
+        function details() {
+            let name = document.getElementById('full-name').value;
+            let email = document.getElementById('email').value;
+            let phone = document.getElementById('phone').value;
+            let subject = document.getElementById('subject').value;
+            let area =document.getElementById('msg').value
+    
+            if (!name || !email || !phone || !subject || !area) {
+                alert('Insert all values');
+            } else {
+                alert('Your Response is Submitted');
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Bhanu <span>Sai</span></a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#certification">Certification</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Bhanu</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+
+            <p>Dynamic and adaptable individual with a strong foundation in computer science and software development. Experienced in various programming languages, software testing, cloud services, and web technologies. Proactive and driven, eager to embrace new challenges and expand my knowledge horizons. Seeking opportunities to apply my technical expertsise in a challenging and dynamic environment, contributing to impactful software solutions.</p>
+           
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/bhanu-sai-only/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/bhanusaionly55"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/bhanusaii?igsh=MWNwOGl5bGYzazZmcg=="><i class='bx bxl-instagram'></i></a>
+            </div>
+            
+            <div class="btn-group">
+                <a href="#" class="btn" onclick="window.location.href='https://1drv.ms/b/c/bf14537c57d0fa6b/Efzu_vzuKcJIvgNCTUwpVC4BRP4kS22J17xi7ymx_xk50w';">Experience</a>
+                <a href="#" class="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="pic.png" alt="">
+            </div>
+        
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content">
+                        <h3><b>High School</b></h3>
+                        <h3>Sri Chaitanya School</h3>
+                        <p>SSC Board GPA: 9.7 </p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3><b>Intermediate</b></h3>
+                        <h3>Sri Chaitanya Junior College</h3>
+                        <p>Inter Board GPA: 9.2</p>
+                    </div>
+                
+                
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021-2025</div>
+                    <div class="timeline-content">
+                        <h3><b>Under Graduation</b></h3>
+                        <h3>SIMATS University</h3>
+                        <p>Computer Science & Engineering GPA: 9.0</p>
+                    </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Dice Game</h4>
+                    <p>met consectetur adipisicing elit. Praesentium</p>
+                </div>
+            </div>
+
+            <div class="project-box" >
+                <div class="project-info">
+                    <a href="https://login-page-seven-nu.vercel.app/" style="text-decoration: none; color: inherit;"><h4>Login Page</h4></a>
+                    <p>met consectetur adipisicing elit. Praesentium</p>
+                </div>
+            </div>
+
+            <div class="project-box" >
+                <div class="project-info">
+                    <a href="https://bookybro.wordpress.com/" style="text-decoration: none; color: inherit;"><h4>Wordpress</h4></a>
+                    <p>met consectetur adipisicing elit. Praesentium</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Predictive Model</h4>
+                    <p>met consectetur adipisicing elit. Praesentium</p>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="certification" id="certification">
+        <div class="certifiaction-box">
+            <h2 class="heading">Certification</h2>
+
+            <div class="wrapper">
+                <div class="certification-item">
+                    <img src="django.png" alt="">
+                    <a href="https://1drv.ms/b/c/bf14537c57d0fa6b/EafAuj7RlUJOg0cgo44G6g8BBclWRKucQcMjBnCQOLmGVw" style="text-decoration: none; color: inherit;"><h2><i class='bx bx-link'></i>Django</h2></a>
+                    <div class="company">
+                        <h3>Simple Learn</h3>
+                    </div>
+                    <p>Gained comprehensive knowledge of the Django framework, including URL routing, views, models, and templates.</p>
+                </div>
+
+                <div class="certification-item">
+                    <img src="gen.png" alt="">
+                    <a href="https://1drv.ms/b/c/bf14537c57d0fa6b/ETkXDa1KQ_9JtS_t1aQMtR4BdavMwUou6ObCKwD5mt4mPw" style="text-decoration: none; color: inherit;"><h2><i class='bx bx-link'></i>Gen-AI</h2></a>
+                    <div class="company">
+                        <h3>Oracle</h3>
+                    </div>
+                    <p>Certified in Oracle Generative AI, mastering advanced techniques in AI-driven content creation and innovative machine learning models.</p>
+                </div>
+
+                <div class="certification-item">
+                    <img src="hack.png" alt="">
+                    <a href="https://1drv.ms/b/c/bf14537c57d0fa6b/EWydq3dhDuNPm3gs2mI3jZMBSFuMXlznemN7sXvrhPEetw" style="text-decoration: none; color: inherit;"><h2><i class='bx bx-link'></i>Python</h2></a>
+                    <div class="company">
+                        <h3>Hacker Rank</h3>
+                    </div>
+                    <p>Certified in Python by HackerRank, showcasing proficiency in writing clean, efficient code and solving complex problems using modern Python practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contact-form">
+            <div class="input-group">
+              <div class="input-box">
+                <input id="full-name" name="user_name" type="text" placeholder="Full Name" required>
+                <input id="email" name="user_email" type="email" placeholder="Email" required>
+              </div>
+              <div class="input-box">
+                <input id="phone" name="user_phone" type="number" placeholder="Phone Number" required>
+                <input id="subject" name="user_subject" type="text" placeholder="Subject" required>
+              </div>
+            </div>
+            <div class="input-group-2">
+              <textarea id="msg" name="user_message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn">Send message</button>
+            </div>
+        </form>          
+        
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/bhanu-sai-only/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/bhanusaionly55"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/bhanusaii?igsh=MWNwOGl5bGYzazZmcg=="><i class='bx bxl-instagram'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Education</a>
+            </li>
+            <li>
+                <a href="#">Projects</a>
+            </li>
+            <li>
+                <a href="#">Certification</a>
+            </li>
+        </ul>
+            <p class="copyright">
+                © Bhanu Sai | All Rights Reserved
+            </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+    </script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      // Initialize EmailJS
+      emailjs.init('l-MgcGzE5Z0I4q3zM');
+    
+      // Handle form submission
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+    
+        const btn = document.querySelector('.btn');
+        btn.textContent = 'Sending...'; // Change button text
+    
+        const serviceID = 'service_0enk7kh'; // Your Service ID
+        const templateID = 'template_6f8zbjk'; // Your Template ID
+    
+        emailjs.sendForm(serviceID, templateID, this)
+          .then(() => {
+            btn.textContent = 'Send message'; // Reset button text
+            alert('Message sent successfully!');
+          }, (err) => {
+            btn.textContent = 'Send message'; // Reset button text
+            alert('Failed to send message: ' + JSON.stringify(err));
+          });
+      });
+    </script>
+    
+
+
+</body>
+</html>
