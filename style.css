@@ -441,8 +441,8 @@ span {
 }
 
 .project-box:hover {
-    background: white;
-    color: black;
+    background: black;
+    color: var(--main-color);
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
@@ -527,7 +527,7 @@ span {
 
 .certification-item:hover {
     border: 3px solid var(--main-color);
-    transform: translate(-10px) scale(1.03);
+    transform: translateY(-10px) scale(1.03);
     box-shadow: 0 0 50px var(--main-color);
 }
 
